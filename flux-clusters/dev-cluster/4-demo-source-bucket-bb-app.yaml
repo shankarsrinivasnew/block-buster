@@ -1,0 +1,11 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: Bucket
+metadata:
+  name: 4-demo-source-bucket-bb-app
+  namespace: flux-system
+spec:
+  bucketName: myss-test
+  endpoint: s3.amazonaws.com
+  interval: 10s
+  provider: aws
