@@ -9,3 +9,5 @@ spec:
   endpoint: s3.amazonaws.com
   interval: 10s
   provider: aws
+  secretRef:
+    name: aws-user-creds
