@@ -7,6 +7,7 @@ metadata:
 spec:
   bucketName: myss-test
   endpoint: s3.amazonaws.com
+  insecure: true
   interval: 10s
   provider: aws
   region: eu-west-2
