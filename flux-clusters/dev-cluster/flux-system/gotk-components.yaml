@@ -3558,7 +3558,8 @@ metadata:
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
     app.kubernetes.io/version: v2.2.2
-  annotations: eks.amazonaws.com/role-arn=arn:aws:iam::334531533654ole/msss-myss-test-bucket-role # by shankar
+  annotations:
+    eks.amazonaws.com/role-arn: "arn:aws:iam::334531533654ole/msss-myss-test-bucket-role" # by shankar
   name: source-controller
   namespace: flux-system
 ---
