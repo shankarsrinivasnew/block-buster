@@ -21,7 +21,7 @@ spec:
         name: block-buster
         version: 7.6.0
     namespace:
-      name: 6-demo
+      name: 5-demo
     replicaCount: 1
     service:
       nodePort: 30006
