@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: 6-demo-source-git-bb-app
+  name: 6-demo-source-helmrepo-bb-app
   namespace: flux-system
 spec:
   interval: 10s
