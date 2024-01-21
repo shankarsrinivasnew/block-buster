@@ -11,7 +11,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: 5-demo-source-git-helm-bb-ap
+        name: 5-demo-source-git-helm-bb-app
   interval: 10s
   targetNamespace: 5-demo
   values:
