@@ -8,7 +8,7 @@ spec:
   interval: 10s
   provider: generic
   ref:
-    tag: new
+    tag: new-0bb2691
   secretRef:
     name: ghcr-auth
   url: oci://ghcr.io/shankarsrinivasnew/bb-app
