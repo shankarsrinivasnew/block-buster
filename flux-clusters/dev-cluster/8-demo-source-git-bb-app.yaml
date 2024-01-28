@@ -9,5 +9,5 @@ spec:
   ref:
     branch: 8-demo
   secretRef:
-    name: github-auth
+    name: 8-demo-git-bb-app-auth
   url: https://github.com/shankarsrinivasnew/bb-app-source.git
