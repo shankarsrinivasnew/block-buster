@@ -2,7 +2,7 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta1
 kind: ImageUpdateAutomation
 metadata:
-  name: 8-demo-image-update--bb-app
+  name: 8-demo-source-git-bb-app
   namespace: flux-system
 spec:
   git:
