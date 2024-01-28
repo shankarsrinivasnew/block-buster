@@ -8,4 +8,6 @@ spec:
   interval: 10s
   ref:
     branch: 8-demo
+  secretRef:
+    name: github-auth.yaml
   url: https://github.com/shankarsrinivasnew/bb-app-source.git
