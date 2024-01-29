@@ -8,10 +8,10 @@ spec:
   eventSeverity: info
   eventSources:
   - kind: Kustomization
-    name: flux-system
+    name: '*'
   - kind: Kustomization
-    name: 2-demo-kustomize-git-bb-app
+    name: '*'
   - kind: GitRepository
-    name: 2-demo-source-git-bb-app
+    name: '*'
   providerRef:
     name: notification-provider-slack
