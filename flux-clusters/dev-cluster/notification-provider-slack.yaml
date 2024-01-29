@@ -5,7 +5,7 @@ metadata:
   name: notification-provider-slack
   namespace: flux-system
 spec:
-  address: https://slack.com/api/chat.PostMeesage
+  address: https://slack.com/api/chat.PostMessage
   channel: flux-alerts-channel
   secretRef:
     name: flux-slack-bot-token
